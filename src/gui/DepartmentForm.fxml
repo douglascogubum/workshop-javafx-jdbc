@@ -31,7 +31,7 @@
             </HBox>
             <Label text="Id" />
             <Label text="Name" GridPane.rowIndex="1" />
-            <Label textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="labelErrorName" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1" />
             <TextField fx:id="textFieldId" editable="false" GridPane.columnIndex="1" />
             <TextField fx:id="textFieldName" promptText="Enter department name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
